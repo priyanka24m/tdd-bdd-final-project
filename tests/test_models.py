@@ -145,7 +145,7 @@ class TestProductModel(unittest.TestCase):
         product.delete()
         self.assertEqual(len(Product.all()), 0)
 
-    test_list_all_products(self):
+    deft_list_all_products(self):
         """It should List all Products in the database"""
         products = Product.all()
         self.assertEqual(products, [])
